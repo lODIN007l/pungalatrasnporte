@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revo</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/main.css">
+</head>
+<body>
+    
+
+    <!-- header -->
+    <header class = "header bg-blue">
+        <nav class = "navbar bg-blue">
+            <div class = "container flex">
+                <a href = "index.html" class = "navbar-brand">
+                    <!-- <img src = "images/logo.png" alt = "site logo"> -->
+                    <!-- <h1>Logo</h1> -->
+                </a>
+                <button type = "button" class = "navbar-show-btn">
+                    <img src = "images/ham-menu-icon.png">
+                </button>
+
+                <div class = "navbar-collapse bg-white">
+                    <button type = "button" class = "navbar-hide-btn">
+                        <img src = "images/close-icon.png">
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Inicio</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href="#Tarifas" class = "nav-link">Tarifas</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Servicios</a>
+                        </li>
+                        <!-- <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Doctors</a>
+                        </li> -->
+                        <!-- <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Departments</a>
+                        </li> -->
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">Informacion</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#contacto" class = "nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                    <!-- <div class = "search-bar">
+                        <form>
+                            <div class = "search-bar-box flex">
+                                <span class = "search-icon flex">
+                                    <img src = "images/search-icon-dark.png">
+                                </span>
+                                <input type = "search" class = "search-control" placeholder="Search here">
+                            </div>
+                        </form>
+                    </div> -->
+                </div> 
+            </div>
+        </nav>
+
+        <div class = "header-inner text-white text-center">
+            <div class = "container grid">
+                <div class = "header-inner-left">
+                    <h1>Compañia de transporte<br> <span>PUNGALA</span></h1>
+                    <p class = "lead">Riobamba-Ecuador</p>
+                    <p class = "text text-md">Viajando con seguridad y confianza junto a Pungala, tu mejor opción de transporte en Riobamba.</p>
+                    <div class = "btn-group">
+                        <a href="#Tarifas" class = "btn btn-white">Tarifas</a>
+                        <a href = "#contacto" class = "btn btn-light-blue">Contactenos</a>
+                    </div>
+                </div>
+                <div class = "header-inner-right">
+                    <img src = "images/pungala-removebg-preview.png" height="600px" width="800px">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <main>
+        <!-- about section -->
+        <section id="Tarifas" class="about py">
+            <div class="about-inner">
+              <div class="container flex">
+                <div class="about-left text-center">
+                  <div class="section-head">
+                    <h2>Tarifas</h2>
+                    <div class="border-line"></div>
+                  </div>
+                  <p class="text text-lg">¡Descubre nuestras tarifas exclusivas y ahorra en tus viajes!</p>
+                </div>
+                <div class="flex">
+                  <div class="img">
+                    <img src="images/tarifas-2.PNG" style="max-width: 1000px; height: 800px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+        <!-- end of about section -->
+
+        <!-- banner one -->
+        <section id = "banner-one" class = "banner-one text-center">
+            <div class = "container text-white">
+                <blockquote style="color:white" class = "lead"><i class = "fas fa-quote-left"></i> Viaja con confianza y comodidad en cada trayecto con nuestra compañía de transporte de confianza, donde siempre ponemos la seguridad y el confort de nuestros pasajeros primero. <i class = "fas fa-quote-right"></i></blockquote>
+                
+            </div>
+        </section>
+        <!-- end of banner one -->
+
+        <!-- services section -->
+        <section id = "services" class = "services py">
+            <div class = "container">
+                <div class = "section-head text-center">
+                    <h2 class = "lead">Servicios</h2>
+                    <p class = "text text-lg">Ofrecemos una amplia variedad de servicios para hacer que tus viajes sean más cómodos y sin preocupaciones. Desde servicios de transporte al aeropuerto hasta viajes privados y servicios de entrega, en nuestra compañía de transporte nos enorgullece ofrecer una experiencia de viaje completa que se ajusta a tus necesidades y preferencias. ¡Viaja con confianza y sin preocupaciones con nosotros!</p>
+                    <div class = "line-art flex">
+                        <div></div>
+                        <img src = "images/4-dots.png">
+                        <div></div>
+                    </div>
+                </div>
+                <div class = "services-inner text-center grid">
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <!-- <img src = "images/service-icon-1.png"> -->
+                        </div>
+                        <h3>Servicio 1</h3>
+                        <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus doloribus facilis velit, assumenda tempora quas mollitia quos voluptatibus consequatur!</p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <!-- <img src = "images/service-icon-2.png"> -->
+                        </div>
+                        <h3>Sercvicio 2</h3>
+                        <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus doloribus facilis velit, assumenda tempora quas mollitia quos voluptatibus consequatur!</p>
+                    </article>
+
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <!-- <img src = "images/service-icon-3.png"> -->
+                        </div>
+                        <h3>Servicio3</h3>
+                        <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus doloribus facilis velit, assumenda tempora quas mollitia quos voluptatibus consequatur!</p>
+                    </article>
+                    <article class = "service-item">
+                        <div class = "icon">
+                            <!-- <img src = "images/service-icon-3.png"> -->
+                        </div>
+                        <h3>Servicio4</h3>
+                        <p class = "text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus doloribus facilis velit, assumenda tempora quas mollitia quos voluptatibus consequatur!</p>
+                    </article>
+                   
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+
+        <!-- contact section -->
+        <section id = "contacto" class = "contact py">
+            <div class = "container grid">
+                <div class = "contact-left">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.104443635496!2d-78.64456508482237!3d-1.6794473987753489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d3a8331a7ca9f3%3A0xbc47c0e70977d32a!2s10%20de%20Agosto%20%26%20Puruh%C3%A1%2C%20Riobamba!5e0!3m2!1ses!2sec!4v1681004261990!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                </div>
+                <div class = "contact-right text-white text-center bg-blue">
+                    <div class = "contact-head">
+                        <h3 class = "lead" style="color:aliceblue">Contatenos</h3>
+                        <p class = "text text-md"   style="color:aliceblue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga.</p>
+                    </div>
+                    <form>
+                        <div class = "form-element">
+                            <input type = "text" class = "form-control2" placeholder="Su nombre " style="color:black">
+                        </div>
+                        <div class = "form-element">
+                            <input type = "email" class = "form-control2" placeholder="Su correo">
+                        </div>
+                        <div class = "form-element">
+                            <textarea rows = "5" placeholder="Your Message" class = "form-control2"></textarea>
+                        </div>
+                        <button type = "submit" class = "btn btn-white btn-submit">
+                            <i class = "fas fa-arrow-right"></i> Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
+    </main>
+
+    <!-- footer  -->
+    <footer id = "footer" class = "footer text-center">
+        <div class = "container">
+            <div class = "footer-inner text-white py grid">
+                <div class = "footer-item">
+                    <h3 class = "footer-head">Informacion</h3>
+                    <div class = "icon">
+                        <img src = "images/logo.png">
+                    </div>
+                    <p class = "text text-md">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis saepe incidunt fugiat optio corporis ea!</p>
+                    <address>
+                        servicio de transporte intraprovincial <br>
+                        Calle 10 de Agosto <br>
+                        & Calle Puruha <br>
+                        Riobamba-Ecuador
+                    </address>
+                </div>
+
+                <!-- <div class = "footer-item">
+                    <h3 class = "footer-head">tags</h3>
+                    <ul class = "tags-list flex">
+                        <li>medical care</li>
+                        <li>emergency</li>
+                        <li>therapy</li>
+                        <li>surgery</li>
+                        <li>medication</li>
+                        <li>nurse</li>
+                    </ul>
+                </div> -->
+
+                <!-- <div class = "footer-item">
+                    <h3 class = "footer-head">Quick Links</h3>
+                    <ul>
+                        <li><a href = "#" class = "text-white">Our Services</a></li>
+                        <li><a href = "#" class = "text-white">Our Plan</a></li>
+                        <li><a href = "#" class = "text-white">Privacy Policy</a></li>
+                        <li><a href = "#" class = "text-white">Appointment Schedule</a></li>
+                    </ul>
+                </div> -->
+
+                <div class = "footer-item">
+                    <h3 class = "footer-head">Horarios de atencion</h3>
+                    <p class = "text text-md">Disponemos de los siguientes Horarios de atencion</p>
+                    <ul class = "appointment-info">
+                        <li>8:00 AM - 11:00 AM</li>
+                        <li>2:00 PM - 05:00 PM</li>
+                        <li>8:00 PM - 11:00 PM</li>
+                        <li>
+                            <i class = "fas fa-envelope"></i>
+                            <span>correoTest@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class = "fas fa-phone"></i>
+                            <span>098 815 4633</span>
+                            <span>099 331 4108</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "footer-links">
+                <ul class = "flex">
+                    <li><a href = "#" class = "text-white flex"> <i class = "fab fa-facebook-f"></i></a></li>
+                    <li><a href = "#" class = "text-white flex"> <i class = "fab fa-twitter"></i></a></li>
+                    <li><a href = "#" class = "text-white flex"> <i class = "fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer  -->
+
+
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
